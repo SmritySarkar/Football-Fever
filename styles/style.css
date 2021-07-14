@@ -1,19 +1,20 @@
-/* 
+/* ============
 fonts
-*/
+==============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
-/* 
+/* =====================
 common styles 
- */
+ ======================*/
 body {
     font-family: 'Poppins', sans-serif;
     background-color:
         #FFFFFF;
 }
 
-/* Banner styles 
- */
+/*======================== 
+Banner styles 
+ ============================*/
 
 .flexible-container {
     display: flex;
@@ -85,9 +86,9 @@ body {
     color: black;
 }
 
-/* ---------------
+/* ---------------===============
 Main section styles  
------------*/
+-----------======================*/
 
 
 .players {
@@ -137,3 +138,68 @@ Main section styles
 .paragraph {
     color: grey;
 }
+
+/* =========-------------
+Footer styles goes here 
+
+--------================*/
+.footer-items {
+    display: block;
+    width: 483.87px;
+    height: 213px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+    margin-left: 475px;
+    margin-right: 481.13px;
+    margin-bottom: 63px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.site-logo {
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-logo .logo {
+    width: 300px;
+    justify-content: center;
+    padding-left: 50px;
+
+}
+
+.social-icon {
+    Width: 170px;
+    Height: 32px;
+    margin-left: 156.94px;
+    margin-right: 156.94px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fab {
+    color: grey;
+}
+
+.fab:hover {
+    color: #2D25A0;
+}
+
+.special {
+    margin-left: 14px;
+}
+
+.copyright p {
+    margin-top: 20px;
+    margin-left: 123.94px;
+    margin-right: 123.94px;
+    justify-content: center;
+    text-align: center;
+}
+
+/*=================
+ footer parts ends here 
+ ================== */
